@@ -1,10 +1,17 @@
+; Permanently  delete
+Delete::
+Send +{Delete}
+return
+
+; Context menu
 !q::
 KeyWait, Alt
 Send +{AppsKey}
 return
 
+; PowrShell
 !1::
-KeyWait, Alt
-Send +{AppsKey}
-Send s
+KeyWait, alt
+send +{AppsKey}
+send s
 return
